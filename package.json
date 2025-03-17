@@ -1,0 +1,35 @@
+{
+  "name": "gemini-image-editor",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "google",
+    "gemini",
+    "image",
+    "editor",
+    "api",
+    "express",
+    "cors",
+    "dotenv",
+    "multer"
+  ],
+  "author": "Manthan Ankolkar",
+  "license": "MIT",
+  "description": "A simple image editor using Google Gemini API",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
